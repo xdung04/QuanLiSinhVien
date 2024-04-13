@@ -12,9 +12,20 @@ namespace DoAnCk
 {
     public partial class UserCotrolCourse : UserControl
     {
-        public UserCotrolCourse()
+        FormMain formMain;
+        FormCourse courseForm;
+        public UserCotrolCourse(FormCourse course, FormMain mainform)
         {
             InitializeComponent();
+            this.courseForm = course;
+            this.formMain = mainform;
+        }
+
+        private void linkLabelAccessCourse_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            string id = lblIdCourse.Text;
+            AccessCourseForm accessCourseForm = new AccessCourseForm(id);
+            formMain.OpenFormForOther(accessCourseForm, courseForm);
         }
     }
 }

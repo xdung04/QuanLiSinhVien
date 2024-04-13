@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DoAnCk.STUDENTS.Announs
+namespace DoAnCk
 {
     public partial class FormNotify : Form
     {

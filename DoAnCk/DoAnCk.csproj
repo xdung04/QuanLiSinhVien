@@ -92,6 +92,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccessCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessCourseForm.Designer.cs">
+      <DependentUpon>AccessCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountForm.Designer.cs">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dataprovider.cs" />
     <Compile Include="STUDENTS\Notify\FormNotify.cs">
       <SubType>Form</SubType>
@@ -119,6 +131,12 @@
     <Compile Include="UserCotrolCourse.Designer.cs">
       <DependentUpon>UserCotrolCourse.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AccessCourseForm.resx">
+      <DependentUpon>AccessCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountForm.resx">
+      <DependentUpon>AccountForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="STUDENTS\Notify\FormNotify.resx">
       <DependentUpon>FormNotify.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +187,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\sort.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\universal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-learning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-to-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online-learning %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiger.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OIP %288%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink panther.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pink panther1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rmit2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\welcome.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hello.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adjust.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Ways To Be More Organized This School Year - Society19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-207700.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\study.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cottonbro-studio-4866043.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\score.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

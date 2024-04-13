@@ -39,4 +39,6 @@ C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\bin\Debug\Guna.UI2.dll
 C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.FormCourse.resources
 C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.UserCotrolCourse.resources
 C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.FormMain.resources
-C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.STUDENTS.Announs.FormNotify.resources
+C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.FormNotify.resources
+C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.AccountForm.resources
+C:\Users\LTC\Documents\lt win\DoAnCk\DoAnCk\obj\Debug\DoAnCk.AccessCourseForm.resources

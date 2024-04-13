@@ -51,5 +51,10 @@ namespace DoAnCk
         {
             this.Close();
         }
+
+        private void panelControl_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

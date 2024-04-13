@@ -82,3 +82,10 @@ D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.csp
 D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.csproj.CopyComplete
 D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.exe
 D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.pdb
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\bin\Debug\MetroFramework.Design.dll
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\bin\Debug\MetroFramework.dll
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\bin\Debug\MetroFramework.Fonts.dll
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.MainLoginForm.resources
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.LoginForm.resources
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.SignUpForm.resources
+D:\a.1WinformThayThinh\QuanLySinhVien\QuanLiSinhVien\DoAnCk\obj\Debug\DoAnCk.FogetAccountForm.resources

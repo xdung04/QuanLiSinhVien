@@ -63,7 +63,6 @@
             this.guna2CircleButton1.FillColor = System.Drawing.Color.Maroon;
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2CircleButton1.Image = global::DoAnCk.Properties.Resources.remove;
             this.guna2CircleButton1.Location = new System.Drawing.Point(920, 0);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;

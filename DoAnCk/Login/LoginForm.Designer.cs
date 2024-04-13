@@ -132,7 +132,7 @@
             this.btnSeenPass.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnSeenPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSeenPass.ForeColor = System.Drawing.Color.White;
-            this.btnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnSeenPass.Image")));
+            //this.btnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnSeenPass.Image")));
             this.btnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSeenPass.Location = new System.Drawing.Point(467, 8);
             this.btnSeenPass.Name = "btnSeenPass";

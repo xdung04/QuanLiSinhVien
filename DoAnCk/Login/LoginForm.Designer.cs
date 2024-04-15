@@ -33,6 +33,7 @@
             this.txtUserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnSeenPass = new Guna.UI2.WinForms.Guna2Button();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -47,12 +48,11 @@
             this.comboboxAccount = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnQR = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -111,6 +111,17 @@
             this.panel1.Size = new System.Drawing.Size(519, 57);
             this.panel1.TabIndex = 5;
             // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(38, 12);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(45, 39);
+            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2PictureBox5.TabIndex = 30;
+            this.guna2PictureBox5.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.btnSeenPass);
@@ -132,7 +143,7 @@
             this.btnSeenPass.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnSeenPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSeenPass.ForeColor = System.Drawing.Color.White;
-            //this.btnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnSeenPass.Image")));
+            this.btnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnSeenPass.Image")));
             this.btnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSeenPass.Location = new System.Drawing.Point(467, 8);
             this.btnSeenPass.Name = "btnSeenPass";
@@ -160,7 +171,6 @@
             this.btnUnSeenPass.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnUnSeenPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnUnSeenPass.ForeColor = System.Drawing.Color.White;
-            this.btnUnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnUnSeenPass.Image")));
             this.btnUnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
             this.btnUnSeenPass.Location = new System.Drawing.Point(467, 8);
             this.btnUnSeenPass.Name = "btnUnSeenPass";
@@ -328,17 +338,6 @@
             this.btnQR.Size = new System.Drawing.Size(39, 39);
             this.btnQR.TabIndex = 9;
             // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(38, 12);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(45, 39);
-            this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2PictureBox5.TabIndex = 30;
-            this.guna2PictureBox5.TabStop = false;
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -363,11 +362,11 @@
             this.Load += new System.EventHandler(this.LoginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

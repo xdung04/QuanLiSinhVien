@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new Guna.UI2.WinForms.Guna2TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -46,8 +45,8 @@
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.label5 = new System.Windows.Forms.Label();
             this.comboboxAccount = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.btnQR = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.panel2.SuspendLayout();
@@ -113,9 +112,9 @@
             // 
             // guna2PictureBox5
             // 
-            this.guna2PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox5.Image")));
+            this.guna2PictureBox5.Image = global::DoAnCk.Properties.Resources.badge;
             this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(38, 12);
+            this.guna2PictureBox5.Location = new System.Drawing.Point(38, 3);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.Size = new System.Drawing.Size(45, 39);
             this.guna2PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -143,7 +142,7 @@
             this.btnSeenPass.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnSeenPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnSeenPass.ForeColor = System.Drawing.Color.White;
-            this.btnSeenPass.Image = ((System.Drawing.Image)(resources.GetObject("btnSeenPass.Image")));
+            this.btnSeenPass.Image = global::DoAnCk.Properties.Resources.eye;
             this.btnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
             this.btnSeenPass.Location = new System.Drawing.Point(467, 8);
             this.btnSeenPass.Name = "btnSeenPass";
@@ -153,7 +152,7 @@
             // 
             // guna2PictureBox2
             // 
-            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
+            this.guna2PictureBox2.Image = global::DoAnCk.Properties.Resources.password__2_;
             this.guna2PictureBox2.ImageRotate = 0F;
             this.guna2PictureBox2.Location = new System.Drawing.Point(38, 8);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
@@ -171,6 +170,7 @@
             this.btnUnSeenPass.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnUnSeenPass.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnUnSeenPass.ForeColor = System.Drawing.Color.White;
+            this.btnUnSeenPass.Image = global::DoAnCk.Properties.Resources.unseen;
             this.btnUnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
             this.btnUnSeenPass.Location = new System.Drawing.Point(467, 8);
             this.btnUnSeenPass.Name = "btnUnSeenPass";
@@ -310,18 +310,6 @@
             this.comboboxAccount.TabIndex = 12;
             this.comboboxAccount.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
-            // guna2CirclePictureBox1
-            // 
-            this.guna2CirclePictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2CirclePictureBox1.Image")));
-            this.guna2CirclePictureBox1.ImageRotate = 0F;
-            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(279, 38);
-            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(191, 121);
-            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2CirclePictureBox1.TabIndex = 13;
-            this.guna2CirclePictureBox1.TabStop = false;
-            // 
             // btnQR
             // 
             this.btnQR.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
@@ -331,19 +319,31 @@
             this.btnQR.FillColor = System.Drawing.Color.DarkSlateGray;
             this.btnQR.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnQR.ForeColor = System.Drawing.Color.White;
-            this.btnQR.Image = ((System.Drawing.Image)(resources.GetObject("btnQR.Image")));
+            this.btnQR.Image = global::DoAnCk.Properties.Resources.qr_code1;
             this.btnQR.ImageSize = new System.Drawing.Size(30, 30);
             this.btnQR.Location = new System.Drawing.Point(479, 392);
             this.btnQR.Name = "btnQR";
             this.btnQR.Size = new System.Drawing.Size(39, 39);
             this.btnQR.TabIndex = 9;
             // 
+            // guna2CirclePictureBox1
+            // 
+            this.guna2CirclePictureBox1.Image = global::DoAnCk.Properties.Resources.rmitXin;
+            this.guna2CirclePictureBox1.ImageRotate = 0F;
+            this.guna2CirclePictureBox1.Location = new System.Drawing.Point(279, 38);
+            this.guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
+            this.guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox1.Size = new System.Drawing.Size(191, 121);
+            this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2CirclePictureBox1.TabIndex = 13;
+            this.guna2CirclePictureBox1.TabStop = false;
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(550, 640);
+            this.ClientSize = new System.Drawing.Size(554, 643);
             this.Controls.Add(this.btnQR);
             this.Controls.Add(this.guna2CirclePictureBox1);
             this.Controls.Add(this.comboboxAccount);

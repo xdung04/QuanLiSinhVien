@@ -73,7 +73,7 @@
             this.btnClose.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(198)))), ((int)(((byte)(227)))));
             this.btnClose.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold);
             this.btnClose.ForeColor = System.Drawing.Color.White;
-            this.btnClose.Image = global::DoAnCk.Properties.Resources.delete;
+            this.btnClose.Image = global::DoAnCk.Properties.Resources.approve__1_;
             this.btnClose.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.btnClose.ImageSize = new System.Drawing.Size(35, 35);
             this.btnClose.Location = new System.Drawing.Point(0, 267);

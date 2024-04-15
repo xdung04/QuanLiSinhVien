@@ -125,7 +125,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SkyBlue;
-            this.panel1.BackgroundImage = global::DoAnCk.Properties.Resources.book;
+          //  this.panel1.BackgroundImage = global::DoAnCk.Properties.Resources.book;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);

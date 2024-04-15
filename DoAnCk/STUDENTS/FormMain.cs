@@ -75,12 +75,12 @@ namespace DoAnCk
 
         private void btnCourse_Click(object sender, EventArgs e)
         {
-            OpenForm(new FormCourse(this), this, btnCourse, "#CFD8DC", "Khóa Học Của Tôi");
+            OpenForm(new FormCourse(this, 0), this, btnCourse, "#CFD8DC", "Khóa Học Của Tôi");
         }
 
         private void btnEnroll_Click(object sender, EventArgs e)
         {
-            OpenForm(new FormCourse(this), this, btnEnroll, "#64B5F6", "Đăng Ký Học Phần");
+            OpenForm(new FormCourse(this,1), this, btnEnroll, "#64B5F6", "Đăng Ký Học Phần");
         }
 
         private void btnExit_Click(object sender, EventArgs e)

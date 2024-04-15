@@ -136,6 +136,7 @@ namespace DoAnCk.Properties {
         internal static System.Drawing.Bitmap bar_chart {
             get {
                 object obj = ResourceManager.GetObject("bar-chart", resourceCulture);
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,9 +184,10 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete {
+
+        internal static System.Drawing.Bitmap ex {
             get {
-                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                object obj = ResourceManager.GetObject("ex", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -463,6 +465,7 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
         internal static System.Drawing.Bitmap remove {
             get {
                 object obj = ResourceManager.GetObject("remove", resourceCulture);
@@ -483,6 +486,7 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
         internal static System.Drawing.Bitmap rmit {
             get {
                 object obj = ResourceManager.GetObject("rmit", resourceCulture);

@@ -81,6 +81,16 @@
             this.guna2CircleButton1.TabIndex = 0;
             this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click_1);
             // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            //this.guna2Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Panel1.BackgroundImage")));
+            this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.guna2Panel1.Location = new System.Drawing.Point(0, 30);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.Size = new System.Drawing.Size(400, 639);
+            this.guna2Panel1.TabIndex = 3;
+            // 
             // MainLoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);

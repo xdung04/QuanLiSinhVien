@@ -28,5 +28,24 @@ namespace DoAnCk
         {
 
         }
+
+        public void loadAssignment()
+        {
+            for (int i = 0; i < 3; i++)
+            {
+                UserControlAssignment userControl = new UserControlAssignment();
+
+                // Đặt margin cho UserControl
+                userControl.Margin = new Padding(15, 15, 15, 15); // Thay đổi 10 thành giá trị mong muốn
+
+                flowLayoutPanel1.Controls.Add(userControl);
+            }
+        }
+
+
+        private void AccessCourseForm_Load(object sender, EventArgs e)
+        {
+            loadAssignment();
+        }
     }
 }

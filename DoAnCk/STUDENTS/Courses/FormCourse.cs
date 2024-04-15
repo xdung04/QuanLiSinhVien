@@ -13,18 +13,33 @@ namespace DoAnCk
 {
     public partial class FormCourse : Form
     {
-        public FormCourse(FormMain formTag)
+        public FormCourse(FormMain formTag, int check)
         {
             InitializeComponent();
-            for (int i = 0; i < 10; i++)
+            if(check ==0)
             {
-                UserCotrolCourse userControl = new UserCotrolCourse(this,formTag);
+                for (int i = 0; i < 10; i++)
+                {
+                    UserCotrolCourse userControl = new UserCotrolCourse(this, formTag);
 
-                // Đặt margin cho UserControl
-                userControl.Margin = new Padding(15, 15, 15, 15); // Thay đổi 10 thành giá trị mong muốn
+                    // Đặt margin cho UserControl
+                    userControl.Margin = new Padding(15, 15, 15, 15); // Thay đổi 10 thành giá trị mong muốn
 
-                flowLayoutPanel1.Controls.Add(userControl);
-            }
+                    flowLayoutPanel1.Controls.Add(userControl);
+                }
+            }    
+            else
+            {
+                for (int i = 0; i < 10; i++)
+                {
+                    UserControlEnrollCourse userControl = new UserControlEnrollCourse(this, formTag);
+
+                    // Đặt margin cho UserControl
+                    userControl.Margin = new Padding(15, 15, 15, 15); // Thay đổi 10 thành giá trị mong muốn
+
+                    flowLayoutPanel1.Controls.Add(userControl);
+                }
+            }    
         }
 
 

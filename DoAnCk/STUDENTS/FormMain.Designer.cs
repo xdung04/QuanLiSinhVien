@@ -32,13 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.lblHeader = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelControl = new System.Windows.Forms.Panel();
             this.btnExit = new Guna.UI2.WinForms.Guna2Button();
             this.btnEnroll = new Guna.UI2.WinForms.Guna2Button();
             this.btnCourse = new Guna.UI2.WinForms.Guna2Button();
             this.btnNotify = new Guna.UI2.WinForms.Guna2Button();
             this.btnAccount = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.panelControl = new System.Windows.Forms.Panel();
             panel1 = new System.Windows.Forms.Panel();
             panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -79,18 +79,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 764);
             this.panel2.TabIndex = 6;
-            // 
-            // panelControl
-            // 
-            this.panelControl.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.panelControl.BackgroundImage = global::DoAnCk.Properties.Resources.hello;
-            this.panelControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panelControl.Location = new System.Drawing.Point(205, 80);
-            this.panelControl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelControl.Name = "panelControl";
-            this.panelControl.Size = new System.Drawing.Size(1242, 684);
-            this.panelControl.TabIndex = 1;
-            this.panelControl.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelControl_ControlRemoved);
             // 
             // btnExit
             // 
@@ -208,6 +196,18 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(200, 200);
             this.guna2Panel1.TabIndex = 1;
+            // 
+            // panelControl
+            // 
+            this.panelControl.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.panelControl.BackgroundImage = global::DoAnCk.Properties.Resources.hello;
+            this.panelControl.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panelControl.Location = new System.Drawing.Point(205, 80);
+            this.panelControl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelControl.Name = "panelControl";
+            this.panelControl.Size = new System.Drawing.Size(1242, 684);
+            this.panelControl.TabIndex = 1;
+            this.panelControl.ControlRemoved += new System.Windows.Forms.ControlEventHandler(this.panelControl_ControlRemoved);
             // 
             // FormMain
             // 

@@ -272,7 +272,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::DoAnCk.Properties.Resources.ex;
+           
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";

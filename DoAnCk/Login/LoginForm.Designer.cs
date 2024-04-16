@@ -230,6 +230,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(166, 39);
             this.guna2Button2.TabIndex = 7;
             this.guna2Button2.Text = "Login";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // label4
             // 

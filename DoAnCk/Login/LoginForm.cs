@@ -78,5 +78,12 @@ namespace DoAnCk
             txtPassword.PasswordChar = '*';
             btnSeenPass.Visible = true;
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            MainAdminForm adminForm = new MainAdminForm();
+            adminForm.Show();
+            this.Hide();
+        }
     }
 }

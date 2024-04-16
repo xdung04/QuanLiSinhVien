@@ -113,6 +113,16 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap assignment {
+            get {
+                object obj = ResourceManager.GetObject("assignment", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avatar_trang_4 {
             get {
                 object obj = ResourceManager.GetObject("avatar-trang-4", resourceCulture);
@@ -136,7 +146,6 @@ namespace DoAnCk.Properties {
         internal static System.Drawing.Bitmap bar_chart {
             get {
                 object obj = ResourceManager.GetObject("bar-chart", resourceCulture);
-
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -184,10 +193,9 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
-        internal static System.Drawing.Bitmap ex {
+        internal static System.Drawing.Bitmap delete {
             get {
-                object obj = ResourceManager.GetObject("ex", resourceCulture);
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -465,7 +473,6 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
         internal static System.Drawing.Bitmap remove {
             get {
                 object obj = ResourceManager.GetObject("remove", resourceCulture);
@@ -486,7 +493,6 @@ namespace DoAnCk.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-
         internal static System.Drawing.Bitmap rmit {
             get {
                 object obj = ResourceManager.GetObject("rmit", resourceCulture);

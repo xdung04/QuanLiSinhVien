@@ -31,15 +31,22 @@ namespace DoAnCk
         {
             Close();
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void TeacherForm_Load(object sender, EventArgs e)
         {
-
+            LoadUser();
+        }
+        public void LoadUser()
+        {
+            for(int i = 1; i < 10; i++)
+            {
+                ucAccount account = new ucAccount();
+                account.lblSTT.Text = i.ToString(); 
+                panalAccount.Controls.Add(account);
+            }
         }
     }
 }

@@ -144,7 +144,7 @@
             this.btnSeenPass.ForeColor = System.Drawing.Color.White;
             this.btnSeenPass.Image = global::DoAnCk.Properties.Resources.eye;
             this.btnSeenPass.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSeenPass.Location = new System.Drawing.Point(467, 8);
+            this.btnSeenPass.Location = new System.Drawing.Point(467, 3);
             this.btnSeenPass.Name = "btnSeenPass";
             this.btnSeenPass.Size = new System.Drawing.Size(39, 39);
             this.btnSeenPass.TabIndex = 7;

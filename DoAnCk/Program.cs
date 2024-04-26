@@ -16,7 +16,7 @@ namespace DoAnCk
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainAdminForm());
+            Application.Run(new MainLoginForm());
         }
     }
 }

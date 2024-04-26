@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -81,9 +82,23 @@ namespace DoAnCk
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            MainAdminForm adminForm = new MainAdminForm();
-            adminForm.Show();
-            this.Hide();
+            SqlParameter[] parameters = new SqlParameter[]
+            {
+                new SqlParameter("@acc", txtUserName.Text),
+                new SqlParameter("@pwd", txtPassword.Text)
+            };
+            DataTable dt = Dataprovider.Instance.ExecuteQuery("SELECT * FROM Users WHERE account = @acc AND password = @pwd",parameters);
+            if(dt.Rows.Count > 0 )
+            {
+                MainAdminForm adminForm = new MainAdminForm();
+                adminForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Sai");
+            }
+            
         }
     }
 }

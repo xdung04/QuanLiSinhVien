@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DoAnCk
 {
-    public partial class StudentForm : Form
+    public partial class ucAccount : UserControl
     {
-        public StudentForm()
+        public ucAccount()
         {
             InitializeComponent();
         }
